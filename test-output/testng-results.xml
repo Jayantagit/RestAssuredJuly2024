@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10578" started-at="2024-07-07T09:32:26 IST" finished-at="2024-07-07T09:32:36 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10578" started-at="2024-07-07T09:32:26 IST" finished-at="2024-07-07T09:32:36 IST">
+      <class name="CRUD.HotelBookerApi">
+        <test-method status="PASS" signature="setBaseURI()[pri:0, instance:CRUD.HotelBookerApi@2a556333]" name="setBaseURI" is-config="true" duration-ms="917" started-at="2024-07-07T09:32:26 IST" finished-at="2024-07-07T09:32:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseURI -->
+        <test-method status="PASS" signature="createToken()[pri:1, instance:CRUD.HotelBookerApi@2a556333]" name="createToken" duration-ms="5542" started-at="2024-07-07T09:32:26 IST" finished-at="2024-07-07T09:32:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createToken -->
+        <test-method status="PASS" signature="createBooking()[pri:2, instance:CRUD.HotelBookerApi@2a556333]" name="createBooking" duration-ms="1339" started-at="2024-07-07T09:32:32 IST" finished-at="2024-07-07T09:32:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method status="PASS" signature="getBooking()[pri:3, instance:CRUD.HotelBookerApi@2a556333]" name="getBooking" duration-ms="1366" started-at="2024-07-07T09:32:33 IST" finished-at="2024-07-07T09:32:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBooking -->
+        <test-method status="PASS" signature="updateBooking()[pri:4, instance:CRUD.HotelBookerApi@2a556333]" name="updateBooking" duration-ms="1327" started-at="2024-07-07T09:32:35 IST" finished-at="2024-07-07T09:32:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBooking -->
+      </class> <!-- CRUD.HotelBookerApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -3,14 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CRUD.HotelBookerApi">
+      <class name="HotelBooking.CreateToken">
         <methods>
-          <include name="createBooking"/>
-          <include name="createToken"/>
-          <include name="getBooking"/>
           <include name="setBaseURI"/>
+          <include name="generateToken"/>
         </methods>
-      </class> <!-- CRUD.HotelBookerApi -->
+      </class> <!-- HotelBooking.CreateToken -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

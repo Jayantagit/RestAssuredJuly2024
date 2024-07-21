@@ -6,7 +6,7 @@
       <class name="HotelBooking.CreateToken">
         <methods>
           <include name="setBaseURI"/>
-          <include name="generateToken"/>
+          <include name="generateTokenUsingMapper"/>
         </methods>
       </class> <!-- HotelBooking.CreateToken -->
     </classes>

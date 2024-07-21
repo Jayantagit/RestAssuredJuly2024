@@ -11,12 +11,8 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class User {
+public class Token {
 	
-	@JsonProperty("username")
-	private String username;
-	
-	@JsonProperty("password")
-	private String password;
+	private String token;
 
 }

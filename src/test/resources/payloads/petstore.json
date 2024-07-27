@@ -1,10 +1,10 @@
 {
-  "id" : 786,
-  "username" : "Mukesh",
-  "firstName" : "Mukesh",
-  "lastName" : "Otwani",
-  "email" : "jkm@test.com",
-  "password" : "mukesh@123",
-  "phone" : "9090909090",
-  "userStatus" : 1
+  "id": 786,
+  "username": "Mukesh",
+  "firstName": "Mukesh",
+  "lastName": "Mandal",
+  "email": "mukesh@gmail.com",
+  "password": "mukesh@123",
+  "phone": "9090909090",
+  "userStatus": 1
 }

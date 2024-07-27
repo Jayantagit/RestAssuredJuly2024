@@ -3,10 +3,13 @@ package Utils;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 
 import io.restassured.response.Response;
@@ -26,11 +29,26 @@ public class APICalls {
 		}
 		return jsonObject;
 	}
-	
 
+	public void updateKeyValueOnPayload(String key, String value, String path) {
+		JsonObject payload = getJsonObjectFromFileInPayloadFolder(path);
+		payload.addProperty(key, value);
+		saveJsonDataOnpath(payload, path);
+	}
 
-	public <T> T toJsonObject(Response jsonResponse,Class<T> clazz) {
-		ObjectMapper mapper = new ObjectMapper();		
+	private void saveJsonDataOnpath(JsonObject payload, String path) {
+		Gson gsonBuilder = new GsonBuilder().setPrettyPrinting().create();
+		try (FileWriter fw = new FileWriter(path)) {
+			gsonBuilder.toJson(payload, fw);
+		} catch (IOException e) {
+
+			e.printStackTrace();
+		}
+
+	}
+
+	public <T> T toJsonObject(Response jsonResponse, Class<T> clazz) {
+		ObjectMapper mapper = new ObjectMapper();
 		try {
 			return mapper.readValue(jsonResponse.getBody().asString(), clazz);
 		} catch (JsonProcessingException e) {

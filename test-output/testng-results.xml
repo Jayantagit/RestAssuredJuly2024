@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10308" started-at="2024-07-21T09:15:30 IST" finished-at="2024-07-21T09:15:41 IST">
+  <suite name="Default suite" duration-ms="10120" started-at="2024-07-21T12:16:32 IST" finished-at="2024-07-21T12:16:42 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10308" started-at="2024-07-21T09:15:30 IST" finished-at="2024-07-21T09:15:41 IST">
+    <test name="Default test" duration-ms="10120" started-at="2024-07-21T12:16:32 IST" finished-at="2024-07-21T12:16:42 IST">
       <class name="HotelBooking.CreateToken">
-        <test-method status="PASS" signature="setBaseURI()[pri:0, instance:HotelBooking.CreateToken@2173f6d9]" name="setBaseURI" is-config="true" duration-ms="1004" started-at="2024-07-21T09:15:30 IST" finished-at="2024-07-21T09:15:31 IST">
+        <test-method status="PASS" signature="setBaseURI()[pri:0, instance:HotelBooking.CreateToken@2173f6d9]" name="setBaseURI" is-config="true" duration-ms="910" started-at="2024-07-21T12:16:32 IST" finished-at="2024-07-21T12:16:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBaseURI -->
-        <test-method status="PASS" signature="generateTokenGSON()[pri:0, instance:HotelBooking.CreateToken@2173f6d9]" name="generateTokenGSON" duration-ms="5358" started-at="2024-07-21T09:15:31 IST" finished-at="2024-07-21T09:15:37 IST">
+        <test-method status="PASS" signature="generateTokenGSON()[pri:0, instance:HotelBooking.CreateToken@2173f6d9]" name="generateTokenGSON" duration-ms="5675" started-at="2024-07-21T12:16:32 IST" finished-at="2024-07-21T12:16:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateTokenGSON -->
-        <test-method status="PASS" signature="generateTokenPOJO()[pri:0, instance:HotelBooking.CreateToken@2173f6d9]" name="generateTokenPOJO" duration-ms="2374" started-at="2024-07-21T09:15:37 IST" finished-at="2024-07-21T09:15:39 IST">
+        <test-method status="PASS" signature="generateTokenPOJO()[pri:0, instance:HotelBooking.CreateToken@2173f6d9]" name="generateTokenPOJO" duration-ms="2074" started-at="2024-07-21T12:16:38 IST" finished-at="2024-07-21T12:16:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateTokenPOJO -->
-        <test-method status="PASS" signature="generateTokenUsingMapper()[pri:0, instance:HotelBooking.CreateToken@2173f6d9]" name="generateTokenUsingMapper" duration-ms="1469" started-at="2024-07-21T09:15:39 IST" finished-at="2024-07-21T09:15:41 IST">
+        <test-method status="PASS" signature="generateTokenUsingMapper()[pri:0, instance:HotelBooking.CreateToken@2173f6d9]" name="generateTokenUsingMapper" duration-ms="1344" started-at="2024-07-21T12:16:40 IST" finished-at="2024-07-21T12:16:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateTokenUsingMapper -->

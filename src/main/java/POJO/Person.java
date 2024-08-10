@@ -17,6 +17,8 @@ import lombok.NoArgsConstructor;
 public class Person {
 	
 	String name;
-	int age;
+	
+	@JsonProperty("age")
+	int personAge;
 
 }

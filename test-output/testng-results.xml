@@ -1,109 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="524" started-at="2024-07-28T08:59:22 IST" finished-at="2024-07-28T08:59:22 IST">
+  <suite name="Default suite" duration-ms="7794" started-at="2024-08-11T09:12:36 IST" finished-at="2024-08-11T09:12:44 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="524" started-at="2024-07-28T08:59:22 IST" finished-at="2024-07-28T08:59:22 IST">
-      <class name="APITests.DataDrivenAPITest">
-        <test-method status="PASS" signature="dataDriven(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:APITests.DataDrivenAPITest@4232c52b]" name="dataDriven" duration-ms="11" started-at="2024-07-28T08:59:22 IST" data-provider="DataApi" finished-at="2024-07-28T08:59:22 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[786]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Mukesh]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Mukesh]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Mandal]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[mukesh@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[mukesh@123]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[9090909090]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="7794" started-at="2024-08-11T09:12:36 IST" finished-at="2024-08-11T09:12:44 IST">
+      <class name="APITests.XMLTest">
+        <test-method status="PASS" signature="postTest()[pri:1, instance:APITests.XMLTest@536aaa8d]" name="postTest" duration-ms="6200" started-at="2024-08-11T09:12:36 IST" finished-at="2024-08-11T09:12:42 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataDriven -->
-        <test-method status="PASS" signature="dataDriven(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)[pri:0, instance:APITests.DataDrivenAPITest@4232c52b]" name="dataDriven" duration-ms="6" started-at="2024-07-28T08:59:22 IST" data-provider="DataApi" finished-at="2024-07-28T08:59:22 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[787]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Jayanta]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Mukesh]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Mandal]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[mukesh@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[mukesh@123]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[9090909090]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- postTest -->
+        <test-method status="PASS" signature="xmlPojoTest()[pri:2, instance:APITests.XMLTest@536aaa8d]" name="xmlPojoTest" duration-ms="1508" started-at="2024-08-11T09:12:42 IST" finished-at="2024-08-11T09:12:44 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataDriven -->
-        <test-method status="PASS" signature="dataDriven1()[pri:2, instance:APITests.DataDrivenAPITest@4232c52b]" name="dataDriven1" duration-ms="9" started-at="2024-07-28T08:59:22 IST" description="JacksonEg" finished-at="2024-07-28T08:59:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dataDriven1 -->
-      </class> <!-- APITests.DataDrivenAPITest -->
+        </test-method> <!-- xmlPojoTest -->
+      </class> <!-- APITests.XMLTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
